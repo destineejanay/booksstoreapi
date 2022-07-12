@@ -9,7 +9,7 @@ export default function addBook() {
 
   const postBook = (event) => {
     axios
-      .post("https://bookstoreapi-djm.herokuapp.com/book/add", {
+      .post("https://bookstorefrontendapi-djm.herokuapp.com/book/add", {
         name: name,
         author: author,
         price: price,
